@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: grid;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+.draggable {
+    padding: 150px;
+    width: 900px;
+    grid-template-columns: repeat(3)20px;
+    grid-template-rows: repeat(4) 100px; 
+    align-items: center;
+}
+
+img {
+    margin: 10px;
+}
